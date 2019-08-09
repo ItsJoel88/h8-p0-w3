@@ -12,11 +12,11 @@ function groupAnimals(animals){
             output.push([animals[i]])
         }
     }
-    var apalah = output[0].filter(function(item,index){
+    var redundant = output[0].filter(function(item,index){
         return output[0].indexOf(item)===index
     }) 
     output.shift()
-    output.unshift(apalah)
+    output.unshift(redundant)
     return output
 }
 console.log(groupAnimals(['cacing', 'ayam', 'kuda', 'anoa', 'kancil', 'unta', 'cicak' ]))
