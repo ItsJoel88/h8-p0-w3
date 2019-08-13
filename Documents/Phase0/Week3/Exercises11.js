@@ -9,5 +9,5 @@ function tentukanDeretAritmatika(arr) {
     }
     return true
   }
-  console.log(deretanAritmetik([2,4,60,8,10])) //false
-  console.log(deretanAritmetik([3,6,9,12])) //true
+  console.log(tentukanDeretAritmatika([2,4,60,8,10])) //false
+  console.log(tentukanDeretAritmatika([3,6,9,12])) //true
